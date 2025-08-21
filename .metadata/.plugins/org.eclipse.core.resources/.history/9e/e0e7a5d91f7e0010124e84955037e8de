@@ -1,0 +1,8 @@
+package br.edu.unipe.aps2.exercicio1;
+
+import java.util.ArrayList;
+
+public interface AgendaDeAniversarios {
+
+	
+}

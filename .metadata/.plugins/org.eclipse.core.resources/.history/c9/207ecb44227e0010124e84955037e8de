@@ -1,0 +1,18 @@
+package br.edu.unipe.aps2.exercicio1;
+
+public class TesteAgenda {
+	public static void main(String[] args) {
+		
+	    MinhaAgendaDeAniversarios agenda = new MinhaAgendaDeAniversarios();
+
+        Aniversariante a1 = new Aniversariante("João", 20, 8);
+        Aniversariante a2 = new Aniversariante("Maria", new DataAniversario(15, 3));
+        
+        agenda.adicionar(a1);
+        agenda.adicionar(a2);
+		
+		
+		
+		
+	}
+}
